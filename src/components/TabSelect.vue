@@ -1,36 +1,13 @@
 <script setup>
+import TabsWrapper from './TabsWrapper.vue'
+import TabItem from './TabItem.vue'
 </script>
 
 <template>
-    <div id = "tabs-bar">
-        <div class = "tab">
-            characters
-        </div>
-        <div class = "tab">
-            reserves
-        </div>
-    </div>
-    <div id = "control-bar">
-        <select class = "selector">
-            <option value="all">Writer</option>
-            <option value="test-name">Example Writer Name</option>
-        </select>
-        <select class = "selector">
-            <option value = "all">Fandom</option>
-            <option value = "test-fandom">Example Fandom</option>
-        </select>
-        <select class = "selector">
-            <option value = "default">Sort</option>
-            <option value = "oldest-first">Oldest to Newest</option>
-            <option value = "newest-first">Newest to Oldest</option>
-            <option value = "alpha-char">Alpha by Character</option>
-            <option value = "alpha-fandom">Alpha by Fandom</option>
-            <option value = "alpha-writer">Alpha by Writer</option> 
-        </select>
-    </div>
-    <div id = "results-box">
-        this is where the search results will go
-    </div>
+    <TabsWrapper>
+        <TabItem title="Characters">Characters will appear here</TabItem>
+        <TabItem title="Reserves">Reserves will appear here</TabItem>
+    </TabsWrapper>
 </template>
 
 <style scoped>
@@ -54,7 +31,7 @@
 #results-box
 {
     width: 100%;
-    background-color: navy;
+    background-color: purple;
     padding: 50px;
 }
 
@@ -67,6 +44,22 @@
     text-align: center;
     font-size: 14pt;
     padding-top: 10px;
+}
+
+#selected
+{
+    background-color: purple;
+}
+
+#unselected
+{
+    background-color: orange;
+}
+
+#unselected:hover
+{
+    background-color: black;
+    cursor: pointer;
 }
 
 .selector

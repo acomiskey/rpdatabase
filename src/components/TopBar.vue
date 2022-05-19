@@ -28,7 +28,7 @@
 {
     width: 100%;
     height: 50px;
-    background-color: red;
+    background-color: black;
 }
 
 #site-icon
@@ -48,7 +48,6 @@
     float: right;
     height: 100%;
     width: 90%;
-    background-color: green;
     padding-right: 10px;
     padding-top:10px;
     text-align: right;

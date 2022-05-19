@@ -7,12 +7,15 @@ import TabSelect from './components/TabSelect.vue'
   <header>
     <TopBar />
   </header>
-
   <main>
     <TabSelect />
   </main>
 </template>
 
 <style>
-  @import './assets/base.css';
+*
+{
+  padding: 0;
+  margin: 0;
+}
 </style>

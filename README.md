@@ -1,29 +1,11 @@
 # rpdatabase
 
-This template should help get you started developing with Vue 3 in Vite.
+A web template for storing and managing Discord MFRP character information online.
 
-## Recommended IDE Setup
+## Dependencies
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+This project uses the Vue (with Pinia) + Express + MySQL + Node.js stack. It uses Vue version 3.2.33, Express 4.18.1, MySQL 2.18.1, and Node.js 16.15.0.
 
-## Customize configuration
+### References
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+https://github.com/matheus-alpe/vue-3-tabs-component-with-inject-provide

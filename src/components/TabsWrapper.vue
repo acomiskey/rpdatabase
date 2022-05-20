@@ -38,16 +38,17 @@ provide('selectedTitle', selectedTitle)
     list-style: none;
     padding: 0;
     margin: 0;
+    height: 40px;
     display: flex;
     text-align: left;
-    gap: 5px;
 }
 
 .tabs__item 
 {
-    flex: 1;
+    font-size: 14pt;
+    padding: 5px 100px;
     background-color: #eee;
-    padding: 5px 0;
+    text-align: center;
     cursor: pointer;
     user-select: none;
 }
